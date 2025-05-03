@@ -7,7 +7,8 @@
     color: #333; /* Mengatur warna font menjadi abu-abu gelap */
     text-transform: uppercase; /* Mengubah teks menjadi huruf kapital semua */
 }
-  
+
+
 /* Cream Section */
 .cream_section {
     background-color: #fff; /* Memberikan latar belakang putih pada bagian ini */
@@ -53,6 +54,23 @@
     margin-bottom: 50px; /* Memberikan jarak bawah pada elemen */
     text-align: center; /* Menyelaraskan teks ke tengah */
 }
+/* Ukuran gambar seragam di dalam card */
+.card-img-top {
+    height: 200px !important;
+    object-fit: cover;
+  }
+  
+  /* Ubah warna tombol menjadi biru muda */
+  .btn-primary {
+    background-color: #5bc0de !important;
+    border-color: #46b8da !important;
+  }
+  
+  .btn-primary:hover {
+    background-color: #31b0d5 !important;
+    border-color: #269abc !important;
+  }
+  
 
 /* Responsif untuk Layar Lebar (Desktop) */
 
