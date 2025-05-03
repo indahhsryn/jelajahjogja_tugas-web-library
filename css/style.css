@@ -1,0 +1,147 @@
+/* Wisata Section */
+
+/* Logo pada navbar, memberi ukuran font dan membuat teks kapital semua */
+.navbar-logo-text {
+    font-size: 24px; /* Menetapkan ukuran font */
+    font-weight: bold; /* Menebalkan font */
+    color: #333; /* Mengatur warna font menjadi abu-abu gelap */
+    text-transform: uppercase; /* Mengubah teks menjadi huruf kapital semua */
+}
+  
+/* Cream Section */
+.cream_section {
+    background-color: #fff; /* Memberikan latar belakang putih pada bagian ini */
+    padding: 60px 0; /* Memberikan padding atas dan bawah 60px */
+}
+  
+/* Judul dalam Cream Section, memperbesar font dan memberi jarak bawah */
+.cream_taital {
+    font-size: 36px; /* Ukuran font untuk judul */
+    color: #333; /* Warna font abu-abu gelap */
+    margin-bottom: 20px; /* Memberikan jarak bawah pada elemen */
+    text-align: center; /* Menyelaraskan teks ke tengah */
+}
+  
+/* Deskripsi dalam Cream Section, font lebih kecil dan warna lebih terang */
+.cream_text {
+    font-size: 16px; /* Ukuran font lebih kecil dibanding judul */
+    color: #777; /* Warna font abu-abu terang */
+    margin-bottom: 50px; /* Memberikan jarak bawah lebih besar */
+    text-align: center; /* Menyelaraskan teks ke tengah */
+}
+
+/* Mitra Section */
+
+/* Bagian layanan (Mitra), dengan latar belakang abu-abu muda */
+.services_section {
+    background-color: #f9f9f9; /* Latar belakang abu-abu muda */
+    padding: 60px 0; /* Memberikan padding atas dan bawah 60px */
+}
+
+/* Judul dalam Mitra Section, font besar dan rata tengah */
+.services_taital {
+    font-size: 36px; /* Ukuran font untuk judul */
+    color: #333; /* Warna font abu-abu gelap */
+    margin-bottom: 20px; /* Memberikan jarak bawah pada elemen */
+    text-align: center; /* Menyelaraskan teks ke tengah */
+}
+
+/* Deskripsi dalam Mitra Section, dengan ukuran font lebih kecil dan warna terang */
+.services_text {
+    font-size: 16px; /* Ukuran font untuk deskripsi */
+    color: #777; /* Warna font abu-abu terang */
+    margin-bottom: 50px; /* Memberikan jarak bawah pada elemen */
+    text-align: center; /* Menyelaraskan teks ke tengah */
+}
+
+/* Responsif untuk Layar Lebar (Desktop) */
+
+/* Mengatur layout untuk perangkat dengan lebar lebih dari 992px */
+@media (min-width: 992px) {
+    .cream_section, .services_section {
+        padding: 80px 0; /* Menambah padding pada bagian cream dan layanan */
+    }
+
+    .cream_taital {
+        font-size: 40px; /* Ukuran font lebih besar untuk judul pada layar besar */
+    }
+
+    .cream_text {
+        font-size: 18px; /* Ukuran font lebih besar untuk deskripsi */
+    }
+
+    .services_taital {
+        font-size: 40px; /* Ukuran font lebih besar untuk judul layanan */
+    }
+
+    .services_text {
+        font-size: 18px; /* Ukuran font lebih besar untuk deskripsi layanan */
+    }
+}
+
+/* Responsif untuk Tablet (768px - 991px) */
+
+/* Mengatur layout untuk perangkat dengan lebar antara 768px hingga 991px */
+@media (max-width: 991px) and (min-width: 768px) {
+    .cream_taital {
+        font-size: 30px; /* Menyesuaikan ukuran font untuk tablet */
+    }
+
+    .cream_text {
+        font-size: 14px; /* Ukuran font lebih kecil untuk deskripsi di tablet */
+    }
+
+    .services_taital {
+        font-size: 30px; /* Menyesuaikan ukuran font judul untuk tablet */
+    }
+
+    .services_text {
+        font-size: 14px; /* Menyesuaikan ukuran font deskripsi untuk tablet */
+    }
+
+    .row {
+        display: flex; /* Mengatur agar item dalam baris dapat disusun dalam satu baris */
+        flex-wrap: wrap; /* Membungkus elemen agar tetap responsif */
+        justify-content: space-around; /* Memberikan jarak antar kolom */
+    }
+
+    /* Memberikan margin bawah dan lebar 45% untuk box dalam baris */
+    .cream_box, .services_box {
+        margin-bottom: 30px; /* Memberikan jarak bawah */
+        width: 45%; /* Membuat lebar box menjadi 45% */
+    }
+}
+
+/* Responsif untuk Mobile (Max-width: 767px) */
+
+/* Mengatur layout untuk perangkat dengan lebar maksimal 767px */
+@media (max-width: 767px) {
+    .cream_taital {
+        font-size: 24px; /* Mengurangi ukuran font untuk judul pada layar mobile */
+    }
+
+    .cream_text {
+        font-size: 12px; /* Mengurangi ukuran font untuk deskripsi pada layar mobile */
+    }
+
+    .services_taital {
+        font-size: 24px; /* Mengurangi ukuran font untuk judul layanan pada layar mobile */
+    }
+
+    .services_text {
+        font-size: 12px; /* Mengurangi ukuran font untuk deskripsi layanan pada layar mobile */
+    }
+
+    /* Membuat baris elemen menjadi kolom dan menyesuaikan posisi pada layar kecil */
+    .row {
+        display: flex; /* Menyusun elemen dalam satu kolom */
+        flex-direction: column; /* Mengatur elemen untuk mengalir secara vertikal */
+        align-items: center; /* Menyelaraskan elemen ke tengah secara horizontal */
+    }
+
+    /* Menyesuaikan lebar box menjadi 90% untuk tampilan mobile dan menambahkan margin bawah */
+    .cream_box, .services_box {
+        width: 90%; /* Membuat box lebih lebar di layar kecil */
+        margin-bottom: 20px; /* Menambahkan jarak bawah antar box */
+    }
+}

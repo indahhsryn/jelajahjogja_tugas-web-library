@@ -1,0 +1,65 @@
+/* Responsif untuk Tablet (768px - 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /* Wisata Section */
+    .cream_taital {
+        font-size: 30px; /* Mengurangi ukuran font judul di layar tablet */
+    }
+
+    .cream_text {
+        font-size: 14px; /* Mengurangi ukuran font deskripsi di layar tablet */
+    }
+
+    /* Mitra Section */
+    .services_taital {
+        font-size: 30px; /* Mengurangi ukuran font judul layanan di layar tablet */
+    }
+
+    .services_text {
+        font-size: 14px; /* Mengurangi ukuran font deskripsi layanan di layar tablet */
+    }
+
+    /* Flex untuk Row pada Wisata dan Mitra */
+    .row {
+        flex-wrap: wrap; /* Membuat elemen dalam baris membungkus ke baris baru saat diperlukan */
+        justify-content: space-between; /* Memberikan ruang antara elemen dalam baris */
+    }
+
+    .cream_box, .services_box {
+        width: 45%; /* Membuat kotak menjadi 45% dari lebar kontainer untuk tampilan tablet */
+        margin-bottom: 20px; /* Memberikan jarak bawah antar kotak */
+    }
+}
+
+/* Responsif untuk Mobile Portrait (Max-width: 575px) */
+@media only screen and (max-width: 575px) {
+
+    /* Wisata Section */
+    .cream_taital {
+        font-size: 24px; /* Mengurangi ukuran font judul pada layar mobile portrait */
+    }
+
+    .cream_text {
+        font-size: 12px; /* Mengurangi ukuran font deskripsi pada layar mobile portrait */
+    }
+
+    /* Mitra Section */
+    .services_taital {
+        font-size: 24px; /* Mengurangi ukuran font judul layanan pada layar mobile portrait */
+    }
+
+    .services_text {
+        font-size: 12px; /* Mengurangi ukuran font deskripsi layanan pada layar mobile portrait */
+    }
+
+    /* Flex untuk Row pada Wisata dan Mitra */
+    .row {
+        flex-direction: column; /* Mengubah susunan elemen menjadi kolom pada layar mobile portrait */
+        align-items: center; /* Menyelaraskan elemen ke tengah secara horizontal */
+    }
+
+    .cream_box, .services_box {
+        width: 90%; /* Membuat kotak lebih lebar pada tampilan mobile (90% dari lebar kontainer) */
+        margin-bottom: 20px; /* Memberikan jarak bawah antar kotak */
+    }
+}
