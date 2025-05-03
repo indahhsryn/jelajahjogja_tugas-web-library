@@ -1,2 +1,2 @@
 Halaman bisa diakses di:
-https://jelajahjogja.vercel.app/index.html
+https://jelajahjogja.vercel.app/
